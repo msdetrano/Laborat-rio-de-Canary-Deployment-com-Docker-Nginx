@@ -24,3 +24,6 @@ Utilizamos o **Nginx** como Load Balancer para distribuir as requisições entre
    ```bash
    git clone https://github.com/msdetrano/Laborat-rio-de-Canary-Deployment-com-Docker-Nginx.git
    cd canary-deploy-lab
+2. **Como Rodar o Lab**
+   ```bash
+   docker-compose up -d --build
