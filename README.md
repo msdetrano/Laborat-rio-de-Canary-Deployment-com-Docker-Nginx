@@ -34,7 +34,7 @@ Utilizamos o **Nginx** como Load Balancer para distribuir as requisições entre
 
 Para validar a distribuição de tráfego e ver o Canary Deployment em ação, utilizei um loop simples no terminal. Isso simula múltiplos acessos de usuários para demonstrar o balanceamento de carga.
 
-Execute o seguinte comando no seu terminal para disparar 10 requisições sequenciais:
+Execute o seguinte script no seu terminal para disparar 10 requisições sequenciais:
 
 ```bash
 ./requests_test.sh
