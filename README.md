@@ -29,3 +29,24 @@ Utilizamos o **Nginx** como Load Balancer para distribuir as requisições entre
 2. **Como Rodar o Lab**
    ```bash
    docker-compose up -d --build
+
+## 🔎 Testando na Prática
+
+Para validar a distribuição de tráfego e ver o Canary Deployment em ação, utilizei um loop simples no terminal. Isso simula múltiplos acessos de usuários para demonstrar o balanceamento de carga.
+
+Execute o seguinte comando no seu terminal para disparar 10 requisições sequenciais:
+
+```bash
+./requests_test.sh
+
+### SAIDA
+✨ Versão da App: V1-ESTAVEL
+✨ Versão da App: V1-ESTAVEL
+✨ Versão da App: V1-ESTAVEL
+✨ Versão da App: V1-ESTAVEL
+✨ Versão da App: V2-CANARY  <-- (Tráfego de Teste)
+✨ Versão da App: V1-ESTAVEL
+✨ Versão da App: V1-ESTAVEL
+✨ Versão da App: V1-ESTAVEL
+✨ Versão da App: V1-ESTAVEL
+✨ Versão da App: V2-CANARY  <-- (Tráfego de Teste)
