@@ -2,7 +2,7 @@
 
 Este projeto demonstra a implementação de uma estratégia de **Canary Deployment**. O objetivo é validar uma nova versão da aplicação enviando apenas uma pequena parcela do tráfego real para ela, reduzindo o risco de falhas em produção.
 
-<img width="724" height="651" alt="image" src="https://github.com/user-attachments/assets/ef14f7b4-5f9c-4fbb-a52c-e1d1a9b36707" />
+      <img width="724" height="651" alt="image" src="https://github.com/user-attachments/assets/ef14f7b4-5f9c-4fbb-a52c-e1d1a9b36707" />
 
 
 ## 🚀 Como Funciona
